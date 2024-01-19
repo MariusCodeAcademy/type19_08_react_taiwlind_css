@@ -9,10 +9,11 @@ export default function TeamSection() {
         </p>
 
         <ul className='pt-10 grid lg:grid-cols-3 md:grid-cols-2 gap-6 '>
-          <li className='border-slate-700 border-2'>
-            <div className='relative overflow-hidden '>
+          {/* When i hover on li element i want to add 'translate-x' rule to ul el inside, how to do that in  */}
+          <li className='border-slate-700 border-2 group'>
+            <div className='relative overflow-hidden'>
               <img src='/img/p1.webp' alt='guy' />
-              <ul className='bg-blue-500  -translate-x-full text-white absolute top-0 left-0 h-full'>
+              <ul className='bg-blue-500 -translate-x-full text-white absolute top-0 left-0 h-full group-hover:translate-x-0 transition-transform'>
                 <li className='p-4'>icon1</li>
                 <li className='p-4'>icon2</li>
               </ul>
