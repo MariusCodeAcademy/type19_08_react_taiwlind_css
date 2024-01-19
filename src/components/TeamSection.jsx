@@ -3,7 +3,7 @@ export default function TeamSection() {
     <section className='py-16 border-b'>
       <div className='container mx-auto'>
         <h2 className='text-4xl pb-4 font-bold text-blue-500 text-center'>Our Team</h2>
-        <p className='font-light text-lg text-center max-w-96 mx-auto '>
+        <p className='font-light text-lg text-center lg:max-w-96 max-w-[60%] mx-auto '>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora
           reiciendis.
         </p>
@@ -11,7 +11,7 @@ export default function TeamSection() {
         <ul>
           <li>
             <div className='relative'>
-              <img src='' alt='guy' />
+              <img src='/img/p1.webp' alt='guy' />
               <ul>
                 <li>icon1</li>
                 <li>icon2</li>
